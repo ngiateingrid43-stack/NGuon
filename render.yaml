@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: heritage-rise-of-africa
+    env: node
+    plan: free
+    buildCommand: npm ci && npm run build && npm run build:server
+    startCommand: npm run start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0

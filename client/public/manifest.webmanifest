@@ -1,0 +1,32 @@
+{
+  "name": "HÉRITAGE – Rise of Africa",
+  "short_name": "Héritage",
+  "description": "Jeu d'action 3D en monde ouvert africain : incarnez 6 héros africains face aux garnisons coloniales à travers le Sahel, le Nil, le Kongo et les Chutes Victoria.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1a1008",
+  "theme_color": "#eab308",
+  "categories": ["games", "action"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
